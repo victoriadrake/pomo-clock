@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="A simple pomodoro clock timer. I drew the tomatoes.">
+
+<title>Pomodoro Clock</title>
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/source.js"></script>
+<!-- Google Fonts stack -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One">
+
+<!-- project CSS -->
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class='controls'>
+<div class='row' id='start'>
+<div class='btn' value='start'>start</div>
+</div>
+<div class='hide' id='break'>
+<p>Time to take a break!</p>
+<div class='row'>
+<img class='btn' src='/img/slice-tomato.png' value='breakLess' width='80px'>
+<div id='breakTime'>00</div>
+<img class='btn' src='/img/full-tomato.png' value='breakMore' width='95px'>
+</div>
+</div>
+<div id='pomo'>
+<p>Time for pomodoro!</p>
+<div class='row'>
+<img class='btn' src='/img/slice-tomato.png' value='pomoLess' width='80px'>
+<div id='pomoTime'>00</div>
+<img class='btn' src='/img/full-tomato.png' value='pomoMore' width='95px'>
+</div>
+</div>
+<div class='row' id='stop'>
+<div class='btn' value='stop'>stop</div>
+</div>
+<div class='row hide' id='reset'>
+<div class='btn' value='reset'>reset</div>
+</div>
+</div>
+<div class='container'>
+<div id='clockface'>
+<div id='mins'></div>
+<p>:</p>
+<div id='secs'></div>
+</div>
+</div>
+</body>
