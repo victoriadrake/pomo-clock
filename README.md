@@ -1,10 +1,10 @@
 # Pomodoro Clock
 
-**See the whole thing working here: [vickylai.com/pomo-clock](https://vickylai.com/pomo-clock/)**
+**See the whole thing working here: [victoria.dev/pomo-clock](https://victoria.dev/pomo-clock/)**
 
 A simple pomodoro clock timer. I drew the tomatoes.
 
-Created initially for [FreeCodeCamp](https://www.freecodecamp.com/vickylai)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](https://codepen.io/vickylai/full/eRWYPp/).
+Created initially for [FreeCodeCamp](https://www.freecodecamp.com/victoria.dev)'s Front-End Developer Certification Course. The first (not actively maintained) version is on [CodePen](https://codepen.io/victoria.dev/full/eRWYPp/).
 
 ***
 
